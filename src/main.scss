@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap");
+$font-family: "Barlow";
+$font-color: "#048C8C";
+.v-application {
+  [class*="text-"] {
+    color: #242c41;
+    font-family: $font-family !important;
+    border-radius: 8px !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $font-family !important;
+  }
+  .display-1,
+  .display-2,
+  .display-3,
+  .display-4,
+  .headline,
+  .title,
+  .subtitle-1,
+  .subtitle-2,
+  .body-1,
+  .body-2,
+  .caption {
+    font-family: $font-family !important;
+  }
+  font-family: $font-family !important;
+  .custom-text {
+    font-size: 1.5em;
+  }
+  .c-primary {
+    color: $font-color !important;
+  }
+  .bg-primary {
+    background-color: $font-color !important;
+  }
+  .v-expansion-panel {
+    box-shadow: none;
+    border: 1px solid rgb(240, 240, 240);
+  }
+}
